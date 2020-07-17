@@ -4,7 +4,7 @@
 
 This repository includes the official implementation of LibraNet for crowd counting, presented in our paper:
 
-**[Weighing Counts: Sequential Crowd Counting by Reinforcement Learning]**
+**[Weighing Counts: Sequential Crowd Counting by Reinforcement Learning](https://arxiv.org/abs/2007.08260)**
 
 Proc. European Conference on Computer Vision (ECCV), 2020
 
