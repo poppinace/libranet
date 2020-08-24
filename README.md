@@ -14,4 +14,61 @@ Liang Liu<sup>1</sup>, [Hao Lu](https://sites.google.com/site/poppinace/)<sup>2<
 
 <sup>2</sup>The University of Adelaide, Australia
 
-## Code will be coming soon!
+### Model Structure
+<p align="left">
+  <img src="overview.png" width="850" title="Example"/>
+</p>
+
+## Installation
+The code has been tested on Python 3.7.6 and PyTorch 1.4.0. Please follow the
+official instructions to configure your environment. See other required packages
+in `requirements.txt`.
+
+## Data structure 
+* Download the pre-processed ShanghaiTech Part_A testing set from: [BaiduYun (23.7
+MB)](https://pan.baidu.com/s/1lagHgw3gshIBmPTHIbkzRw) (code: h7a6) or [OneDrive (24.3 
+MB)](https://1drv.ms/u/s!AkNf_IPSDakh8XEAoq489DxQQ_iF?e=OjH77y)
+
+* Unzip the dataset and move 'Test' folder into './data', the path structure should look like this:
+
+````
+$./data/
+├──── Test
+````
+
+## Training
+The training code is under revision for more readability.
+
+## Inference
+**Pre-trained Model on SHT Part_A dataset**
+* Download the model from: [[BaiduYun (68.3
+MB)](https://pan.baidu.com/s/1fBTr4S7vnXgoMLb3pbWT4g) (code: 20um) or OneDrive (70 
+MB)](https://1drv.ms/u/s!AkNf_IPSDakh8XBVTepnGq2J_YjN?e=lJCCUw) 
+* Move the model into the folder, and the path structure should like this:
+
+````
+$./trained_model/
+├──── LibraNet_SHT_A.pth.tar
+````
+
+**Evaluation**
+```python
+python Test-SHT-A.py
+```
+## Citation
+If you find this work or code useful for your research, please cite:
+```
+@article{liu2020WeighingCounts,
+  title={Weighing Counts: Sequential Crowd Counting by Reinforcement Learning},
+  author={Liu, Liang and Lu, Hao and Zou, Hongwei and Xiong, Haipeng and Cao, Zhiguo and Chun, Huashen},
+  journal={Proc. Eur. Conf. Computer Vision},
+  year={2020}
+}
+```
+
+## Permission
+The code are only for non-commercial purposes. Copyrights reserved.
+
+Contact: 
+Liang Liu (wings@hust.edu.cn)
+Hao Lu (poppinace@foxmail.com)
