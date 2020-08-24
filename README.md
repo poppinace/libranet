@@ -53,7 +53,7 @@ $./trained_model/
 
 **Evaluation**
 ```python
-python Test-SHT-A.py
+python Test_SHT_A.py
 ```
 ## Citation
 If you find this work or code useful for your research, please cite:
