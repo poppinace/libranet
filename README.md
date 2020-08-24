@@ -25,7 +25,7 @@ official instructions to configure your environment. See other required packages
 in `requirements.txt`.
 
 ## Data structure 
-* Download the pre-processed ShanghaiTech Part_A testing set from: [BaiduYun (23.7
+* Download the ShanghaiTech Part_A testing set from: [BaiduYun (23.7
 MB)](https://pan.baidu.com/s/1lagHgw3gshIBmPTHIbkzRw) (code: h7a6) or [OneDrive (24.3 
 MB)](https://1drv.ms/u/s!AkNf_IPSDakh8XEAoq489DxQQ_iF?e=OjH77y)
 
