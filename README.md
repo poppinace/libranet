@@ -44,7 +44,8 @@ The training code is under revision for more readability.
 * Download the model from: [[BaiduYun (68.3
 MB)](https://pan.baidu.com/s/1fBTr4S7vnXgoMLb3pbWT4g) (code: 20um) or OneDrive (70 
 MB)](https://1drv.ms/u/s!AkNf_IPSDakh8XBVTepnGq2J_YjN?e=lJCCUw) 
-* Move the model into the folder, and the path structure should like this:
+* The result of this model is: mae=55.5, mse=93.9. However, if the version pythorch is less than 1.4.0 (1.3.1 for example), the result might be: mae=56.3 , mse=95.2. Now I try to find the reason.
+* Move the model into the folder, and the path structure should like this:the
 
 ````
 $./trained_model/
