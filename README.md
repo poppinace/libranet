@@ -25,19 +25,36 @@ official instructions to configure your environment. See other required packages
 in `requirements.txt`.
 
 ## Data structure 
+* Download the pre-processed ShanghaiTech Part_A training set from: [BaiduYun (168.3
+MB)](https://pan.baidu.com/s/1VENBbBBbIoS929DMaN5Uug) (code: ix2v) or [OneDrive (172.3 
+MB)](https://1drv.ms/u/s!AkNf_IPSDakh8jOOQ8P3tlaQzq9b?e=ugfXjM)
+
 * Download the ShanghaiTech Part_A testing set from: [BaiduYun (23.7
 MB)](https://pan.baidu.com/s/1lagHgw3gshIBmPTHIbkzRw) (code: h7a6) or [OneDrive (24.3 
 MB)](https://1drv.ms/u/s!AkNf_IPSDakh8XEAoq489DxQQ_iF?e=OjH77y)
 
-* Unzip the dataset and move 'Test' folder into './data', the path structure should look like this:
+* Unzip the datasets and move 'Train' and 'Test' folder into './data', the path structure should look like this:
 
 ````
 $./data/
+├──── Train
 ├──── Test
 ````
 
 ## Training
-The training code is under revision for more readability.
+* Download the VGG16 backbone pretrained on SHT Part_A from  [[BaiduYun (56.1
+MB)](https://pan.baidu.com/s/1V5kVYdyF7Cs5SVlyVm2zGg) (code: 3cfp) or OneDrive (57.5 
+MB)](https://1drv.ms/u/s!AkNf_IPSDakh8jLP6doilJNgdr4g?e=JcgOMV). 
+
+* Put the backbone model like './backbone.pth.tar'.
+
+````
+$./backbone.pth.tar
+````
+**Train LibraNet on SHT Part_A Dataset**
+```python
+python train.py
+```
 
 ## Inference
 **Pre-trained Model on SHT Part_A dataset**
