@@ -24,7 +24,7 @@ The code has been tested on Python 3.7.6 and PyTorch 1.4.0. Please follow the
 official instructions to configure your environment. See other required packages
 in `requirements.txt`.
 
-## Data structure 
+## Data Structure 
 * Download the pre-processed ShanghaiTech Part_A training set from: [BaiduYun (168.3
 MB)](https://pan.baidu.com/s/1VENBbBBbIoS929DMaN5Uug) (code: ix2v) or [OneDrive (172.3 
 MB)](https://1drv.ms/u/s!AkNf_IPSDakh8jOOQ8P3tlaQzq9b?e=ugfXjM).
