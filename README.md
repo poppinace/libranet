@@ -27,11 +27,11 @@ in `requirements.txt`.
 ## Data structure 
 * Download the pre-processed ShanghaiTech Part_A training set from: [BaiduYun (168.3
 MB)](https://pan.baidu.com/s/1VENBbBBbIoS929DMaN5Uug) (code: ix2v) or [OneDrive (172.3 
-MB)](https://1drv.ms/u/s!AkNf_IPSDakh8jOOQ8P3tlaQzq9b?e=ugfXjM)
+MB)](https://1drv.ms/u/s!AkNf_IPSDakh8jOOQ8P3tlaQzq9b?e=ugfXjM).
 
 * Download the ShanghaiTech Part_A testing set from: [BaiduYun (23.7
 MB)](https://pan.baidu.com/s/1lagHgw3gshIBmPTHIbkzRw) (code: h7a6) or [OneDrive (24.3 
-MB)](https://1drv.ms/u/s!AkNf_IPSDakh8XEAoq489DxQQ_iF?e=OjH77y)
+MB)](https://1drv.ms/u/s!AkNf_IPSDakh8XEAoq489DxQQ_iF?e=OjH77y).
 
 * Unzip the datasets and move 'Train' and 'Test' folder into './data', the path structure should look like this:
 
@@ -46,7 +46,7 @@ $./data/
 MB)](https://pan.baidu.com/s/1V5kVYdyF7Cs5SVlyVm2zGg) (code: 3cfp) or OneDrive (57.5 
 MB)](https://1drv.ms/u/s!AkNf_IPSDakh8jLP6doilJNgdr4g?e=JcgOMV). 
 
-* Put the backbone model like './backbone.pth.tar'.
+* Put the backbone model like:
 
 ````
 $./backbone.pth.tar
@@ -62,7 +62,7 @@ python train.py
 MB)](https://pan.baidu.com/s/1fBTr4S7vnXgoMLb3pbWT4g) (code: 20um) or OneDrive (70 
 MB)](https://1drv.ms/u/s!AkNf_IPSDakh8XBVTepnGq2J_YjN?e=lJCCUw) 
 * The result of this model is: mae=55.5, mse=93.9. However, if the version pythorch is less than 1.4.0 (1.3.1 for example), the result might be: mae=56.3 , mse=95.2. Now I try to find the reason.
-* Move the model into the folder, and the path structure should like this:the
+* Move the model into the folder, and the path structure should like this:
 
 ````
 $./trained_model/
