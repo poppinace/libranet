@@ -11,8 +11,8 @@ from torchvision import transforms
 
 def train_model(net, epoch, all_epoches, train_path, replay, optimizer, minerror, parameters):
     
-    train_img = 'Train/image/'
-    train_gt = 'Train/gt_classmap/'
+    train_img = train_path + '/image/'
+    train_gt = train_path + '/gt_classmap/'
     train_dir = os.listdir(train_img)      
     train_number = len(train_dir)
   
