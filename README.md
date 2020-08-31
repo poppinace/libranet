@@ -46,7 +46,7 @@ $./data/
 MB)](https://pan.baidu.com/s/1V5kVYdyF7Cs5SVlyVm2zGg) (code: 3cfp) or OneDrive (57.5 
 MB)](https://1drv.ms/u/s!AkNf_IPSDakh8jLP6doilJNgdr4g?e=JcgOMV). 
 
-* Put the backbone model like:
+* Move the backbone model into the folder, and the path structure should like this::
 
 ````
 $./backbone.pth.tar
