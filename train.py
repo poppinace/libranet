@@ -48,12 +48,12 @@ parameters = {'TRAIN_SKIP':100,
 train_path ='data/Train/'
 test_path ='data/Test/'      
 # =============================================================================
-# learning rate
+# Learning rate
 # =============================================================================
 learning_rate = 0.00001 * np.ones(100)
 all_epoches = len(learning_rate)
 # =============================================================================
-# initialization 
+# Initialization 
 # =============================================================================
 minerror = np.zeros(2)
 minerror[0] = 9999
@@ -77,8 +77,14 @@ else:
     
 net = net.cuda()   
             
+# =============================================================================
+# Buffer Setting
+# =============================================================================  
 replay = ReplayBuffer(size=parameters['BUFFER_LENGTH'], vector_len_fv=512, vector_len_hv=parameters['HV_NUMBER'], batch_size=parameters['batch_size'])
-             
+
+# =============================================================================
+# Training 
+# =============================================================================             
 for epoch in range(epoch_last, all_epoches): 
     net.DQN_faze.load_state_dict(net.DQN.state_dict())
     optimizer = optim.SGD([{'params':net.DQN.parameters(), 'lr':learning_rate[epoch]}])
@@ -115,5 +121,6 @@ for epoch in range(epoch_last, all_epoches):
     f.close()
     
 print("Training finish!")
+print('Best result: mae=%.3f,mse=%.3f\n'%(minerror[0], minerror[1]))
     
     
