@@ -86,11 +86,11 @@ If you find this work or code useful for your research, please cite:
 ## Update
 ### 2020-9-24
 1. Fix a bug in *train_test.py* line 32 
-* Old:
+* Error:
 ```python
 for image_index in range(0, 1):
 ```
-* New:
+* Correct:
 ```python
 for image_index in range(0, train_number):
 ```
