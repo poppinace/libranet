@@ -94,6 +94,7 @@ for image_index in range(0, 1):
 ```python
 for image_index in range(0, train_number):
 ```
+2. Add LICENSE.md
 ## Permission
 The code are only for non-commercial purposes. Copyrights reserved.
 
