@@ -83,7 +83,17 @@ If you find this work or code useful for your research, please cite:
   year={2020}
 }
 ```
-
+## Update
+### 2020-9-24
+1. Fix a bug in *train_test.py* line 32
+Old:
+```python
+for image_index in range(0, 1):
+```
+New:
+```python
+python Test_SHT_A.py
+```
 ## Permission
 The code are only for non-commercial purposes. Copyrights reserved.
 
