@@ -92,7 +92,7 @@ for image_index in range(0, 1):
 ```
 New:
 ```python
-python Test_SHT_A.py
+for image_index in range(0, train_number):
 ```
 ## Permission
 The code are only for non-commercial purposes. Copyrights reserved.
