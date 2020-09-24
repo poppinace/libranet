@@ -29,7 +29,7 @@ def train_model(net, epoch, all_epoches, train_path, replay, optimizer, minerror
     
     toTensor = transforms.ToTensor()   
     means = torch.FloatTensor( np.array(parameters['means']) / 255) .unsqueeze_(0).unsqueeze_(2).cuda()
-    for image_index in range(0, 1):
+    for image_index in range(0, train_number):
         print_T=0
         if image_index>0:
             end_image = time.time()
