@@ -85,12 +85,12 @@ If you find this work or code useful for your research, please cite:
 ```
 ## Update
 ### 2020-9-24
-1. Fix a bug in *train_test.py* line 32
-Old:
+1. Fix a bug in *train_test.py* line 32 
+*Old:
 ```python
 for image_index in range(0, 1):
 ```
-New:
+*New:
 ```python
 for image_index in range(0, train_number):
 ```
