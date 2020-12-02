@@ -8,11 +8,13 @@ This repository includes the official implementation of LibraNet for crowd count
 
 Proc. European Conference on Computer Vision (ECCV), 2020
 
-Liang Liu<sup>1</sup>, [Hao Lu](https://sites.google.com/site/poppinace/)<sup>2</sup>, Hongwei Zou<sup>1</sup>, Haipeng Xiong<sup>1</sup>, Zhiguo Cao<sup>1</sup>, [Chunhua Shen](http://cs.adelaide.edu.au/~chhshen/)<sup>1</sup>
+Liang Liu<sup>1,&dagger;</sup>, [Hao Lu](https://sites.google.com/site/poppinace/)<sup>2,&dagger;</sup>, Hongwei Zou<sup>1</sup>, Haipeng Xiong<sup>1</sup>, Zhiguo Cao<sup>1</sup>, [Chunhua Shen](http://cs.adelaide.edu.au/~chhshen/)<sup>1</sup>
 
 <sup>1</sup>Huazhong University of Science and Technology
 
 <sup>2</sup>The University of Adelaide, Australia
+
+<sup>&dagger;</sup> equal contribution
 
 ### Model Structure
 <p align="left">
